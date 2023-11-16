@@ -3,7 +3,7 @@ main {
     width: 100%;
 }
 /* 
-créer des variables */
+crÃ©er des variables */
 :root {
     --title-color: #ffffff;
     --text-color: #000000;
@@ -87,15 +87,17 @@ header {
     align-items: center;
     margin: 2rem;
     flex-direction: column;
-    justify-content: flex-end;
     padding: 3rem;
     border-radius: 25px;
-    box-shadow: 9px 12px 15px 5px rgba(121, 121, 121, 0.178);
-    transition: box-shadow 1s;
+    box-shadow: 9px 12px 15px 5px rgba(121, 121, 121, 0.05);
+    transition: all 1s;
+    justify-content: flex-end;
 }
 
 .cards:hover {
-    box-shadow: 9px 12px 15px 5px rgba(121, 121, 121, 0.419);
+    box-shadow: 9px 12px 15px 5px rgba(121, 121, 121, 0.1);
+    padding: 5rem;
+    border: solid 1rem rgba(255, 255, 255, 0.05);
 }
 
 
